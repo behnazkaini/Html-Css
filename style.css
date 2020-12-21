@@ -1,0 +1,109 @@
+* {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: BYekan;
+  src: url("fonts/BYekan.eot");
+  src: url("fonts/BYekan.eot?#iefix") format("embedded-opentype"),
+    url("fonts/BYekan.woff") format("woff"),
+    url("fonts/BYekan.ttf") format("truetype");
+  font-weight: normal;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+
+body {
+  background-image: url(./img/bootcamp-bg.jpg);
+  background-size: cover;
+  font-family: "BYekan";
+  background-repeat: no-repeat;
+}
+
+nav p {
+  color: #222;
+  font-size: 24px;
+  line-height: 60px;
+  float: right;
+  padding: 0 10px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  float: right;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  color: #222;
+  padding: 19px;
+  display: block;
+  font-size: 14px;
+}
+
+nav ul li a:hover {
+  background-color: #f3f3f3;
+}
+
+nav ul li ul {
+  position: absolute;
+  background-color: #fff;
+  display: none;
+  border-radius: 0 0 4px 4px;
+  padding: 2px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  width: 150px;
+}
+
+nav ul li ul li a {
+  padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+  background-color: #f3f3f3;
+}
+
+.arrow-down {
+  font-size: 12px;
+}
+
+.post {
+  background-color: #fff;
+  width: 50%;
+  padding: 14px;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+.post div,
+h2,
+h5 {
+  margin: 9px;
+  font-family: "BYekan";
+}
+
+.post h5 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
